@@ -14,7 +14,7 @@ body{
 	overflow: hidden;
 	/*overflow-y: hidden;*/
 	padding: 0%;
-	background-image: url(../data/assets/FNB_CUSTOM_LOGO-01.png);
+	/*background-image: url(../data/assets/FNB_CUSTOM_LOGO-01.png);*/
 	background-color: #93278f;
 	/*cursor: pointer;*/
 	cursor: url(../data/assets/cursor.png), auto !important;
@@ -211,6 +211,10 @@ img{
 	position: relative;
 	overflow: scroll;
 	-webkit-overflow-scrolling: touch;
+}
+
+.divspace{
+	height: 50px;
 }
 
 
