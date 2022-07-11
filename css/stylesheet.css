@@ -35,7 +35,7 @@ h2{
 	text-align: left;
 	font-family: 'Roboto Mono', monospace;
 	color: #ffffff;
-	background-color: rgb(150, 150, 255);
+	/*background-color: rgb(150, 150, 255);*/
 	font-size: 20px;
 	position: relative;
 }
@@ -214,8 +214,7 @@ mark{
 	height: 100%;
 	margin: 0;
 	position: relative;
-	overflow-y: scroll;
-	overflow-x: hidden;
+	overflow: scroll;
 	-webkit-overflow-scrolling: touch;
 }
 
@@ -250,6 +249,10 @@ a.pageL{
 
 h1{
 	font-size: 20px;
+}
+
+h2{
+	font-size: 15px;
 }
 
 }
