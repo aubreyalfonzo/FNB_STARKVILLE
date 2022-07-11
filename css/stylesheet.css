@@ -214,7 +214,8 @@ mark{
 	height: 100%;
 	margin: 0;
 	position: relative;
-	overflow: scroll;
+	overflow-y: scroll;
+	overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;
 }
 
