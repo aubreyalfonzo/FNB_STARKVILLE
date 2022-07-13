@@ -186,6 +186,10 @@ mark{
 	background-color: #f7931e;
 }
 
+footer{
+	padding-top: 2%;
+}
+
 ::-webkit-scrollbar {
 	width: 5px;
 
@@ -222,6 +226,19 @@ mark{
 	height: 35px;
 }
 
+.menu_div{
+	position: relative;
+	float: left;
+	width: 33.29%;
+}
+
+.half_screen{
+	display: block;
+	float: left;
+	width: 50%;
+	height: auto;
+}
+
 
 
 /* ////////////////////////////// medium screen ////////////////////////////// */
@@ -231,6 +248,11 @@ mark{
 
 .divspace{
 	height: 25px;
+}
+
+.menu_div{
+	float: none;
+	width: 100%;
 }
 
 
@@ -244,7 +266,7 @@ mark{
 
 a.pageL{
 	font-size: 20px;
-	padding: 2%;
+	padding: 1%;
 }
 
 h1{
